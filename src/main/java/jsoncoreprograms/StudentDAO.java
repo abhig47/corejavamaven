@@ -5,7 +5,6 @@ import org.omg.PortableInterceptor.INACTIVE;
 public class StudentDAO {
     Integer studId;
 
-    String name;
     String studName;
     Integer studRoll;
     Long studMobile;
