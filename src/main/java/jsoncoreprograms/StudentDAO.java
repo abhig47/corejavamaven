@@ -1,7 +1,10 @@
 package jsoncoreprograms;
 
-import org.omg.PortableInterceptor.INACTIVE;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class StudentDAO {
     Integer studId;
 
@@ -26,35 +29,4 @@ public class StudentDAO {
                 '}';
     }
 
-    public Integer getStudId() {
-        return studId;
-    }
-
-    public void setStudId(Integer studId) {
-        this.studId = studId;
-    }
-
-    public String getStudName() {
-        return studName;
-    }
-
-    public void setStudName(String studName) {
-        this.studName = studName;
-    }
-
-    public Integer getStudRoll() {
-        return studRoll;
-    }
-
-    public void setStudRoll(Integer studRoll) {
-        this.studRoll = studRoll;
-    }
-
-    public Long getStudMobile() {
-        return studMobile;
-    }
-
-    public void setStudMobile(Long studMobile) {
-        this.studMobile = studMobile;
-    }
 }
